@@ -1,4 +1,4 @@
-# Personality Analysis Project 2018
+# Personality Analysis Project (2018)
 
 This project is my first Python program, developed to assist in analyzing personalities based on user input. As a part of an educational initiative with my 14-year-old students, we embarked on this journey to learn Python programming, utilizing the Qt framework for the graphical user interface.
 
