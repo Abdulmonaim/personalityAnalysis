@@ -213,13 +213,3 @@ def email_result(email_receiver, type1, intro, strength1, weakness1, career1, ti
     with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:  # THIS is to send the email server
         smtp.login(email_sender, email_password)
         smtp.sendmail(email_sender, email_receiver, email.as_string())  # THIS is to send the email server
-
-
-# result = get_personality_traits("ESTJ")
-# introduction = result[0][1]
-# strength = result[0][3]
-# weakness = result[0][4]
-# career = result[1][1]
-# tips2 = result[2]
-# # email_result("ahmedmahmoud95@rocketmail.com", "ESTJ", introduction, strength, weakness, career, tips2)
-# print(introduction, strength, weakness, career, tips2, sep="\n\n")
